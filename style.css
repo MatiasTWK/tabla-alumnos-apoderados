@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-register {
+  width: 400px;
+  background: hsl(88, 75%, 45%);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri", "Helvetica Neue", Helvetica, Arial, sans-;
+  color: #fff;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "calibri", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "calibri", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  border: 1px solid #1fc5a9;
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.form-register.form-register-form {
+  margin-bottom: 20px;
+}
+
+.form-register input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "calibri", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  border: 1px solid #1fc5a9;
+  color: #fff;
+}
+
+.form-register input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "calibri", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  border: 1px solid #1fc5a9;
+  color: #fff;
+  background: #24303c;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
